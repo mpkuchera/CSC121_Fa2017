@@ -1,5 +1,4 @@
 
-# -*- coding: utf-8 -*-
 """
 Created on Thu Jan 12 16:53:45 2017
 
@@ -13,14 +12,14 @@ import time
 import os
 
 students = ["Will Baldwin", "Mike Bauman", "Nick Boyd", "Liam Carriker", "Dimitrios Chavouzis", "Austin Craig", "Jack Dowell", \
-"Nicky Emanuel", "Kyle Galla", "Anna Grumman", "Drew Hager", "Trey Harris", "Owen Keefer", "Jennifer Lee", "Tori Lindelow", "Morgan McDougal", \
+"Nicky Emanuel", "Kyle Galla", "Madelyn Gatchel", "Anna Grumman", "Drew Hager", "Trey Harris", "Owen Keefer", "Jennifer Lee", "Tori Lindelow", "Morgan McDougal", \
 "Sofia Mills", "Chris Myers", "Nick Nolting", "Julia Sirvinkas", "Eleni Tsitinidi", "Charlotte Woodhams", "John Zhou"]
 
 print "there are", len(students), "students in the class. They are:" 
 for student in students:
     print student, ",   "
 
-students_per_group = 2 # creating pairs
+students_per_group = 2 # = 2 when we are creating pairs
 
 num_groups = len(students) / students_per_group
 
